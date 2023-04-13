@@ -1,8 +1,8 @@
 <?php
 
 class Box {
-    public $width;
-    public $height;
+    private $width;
+    protected $height;
     public $length;
     public $color;
     public $material;
